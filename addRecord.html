@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+     
+    <head>
+        <title>Employee Portal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" type="text/css" href="main.css">
+    </head>
+      
+    <body>
+        <div id="mainHeader">
+            <h1>Employee Portal</h1>
+        </div>
+        
+        <div class="dataDiv">
+            
+            <h2>Add Record:</h2>
+            
+            <form action="addRecord.php" method="post">
+                <input type="text" name="first" placeholder="First Name" required/>
+                <br><br>
+                <input type="text" name="last" placeholder="Last Name" required/>
+                <br><br>
+                <input type="text" name="phone" placeholder="Phone number" required/>
+                <br><br><br><br>
+                <input type="submit" name="submit" value="Add Record"/>
+            </form>
+            
+        </div>
+    </body>
+    
+</html>

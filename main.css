@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2018, 2:40:26 PM
+    Author     : Mason
+*/
+
+table {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.loginDiv {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+h1 {
+   margin: auto;
+   text-align: center;
+   padding: 10px;
+   font-size:larger;
+}
+h2 {
+   margin: auto;
+   text-align: center;
+   padding: 10px;
+   font-size:large;
+}
+h3 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size:medium;
+}
+
+#mainHeader {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+}
+
+
+#accessDataButton {
+   height:60px;
+   width:150px;
+}
+
+#createAccForm {
+    margin: auto;
+    width: 25%;
+    
+    padding: 10px;
+}
+
+input {
+    padding:10px;
+}
+
+
